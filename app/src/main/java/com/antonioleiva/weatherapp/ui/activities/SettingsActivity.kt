@@ -28,7 +28,7 @@ class SettingsActivity : AppCompatActivity() {
 
     companion object {
         val ZIP_CODE = "zipCode"
-        val DEFAULT_ZIP = 94043L
+        val DEFAULT_ZIP = 84000L
     }
 
     var zipCode: Long by DelegatesExt.preference(this, ZIP_CODE, DEFAULT_ZIP)
